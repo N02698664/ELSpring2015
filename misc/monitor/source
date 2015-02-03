@@ -1,0 +1,19 @@
+https://github.com/seb-m/pyinotify/wiki
+http://pyinotify.sourceforge.net/
+
+run python script from python script
+http://stackoverflow.com/questions/1186789/what-is-the-best-way-to-call-a-python-script-from-another-python-script
+
+startup & daemonize python script
+http://blog.scphillips.com/2013/07/getting-a-python-script-to-run-in-the-background-as-a-service-on-boot/
+
+http://simonthepiman.com/
+
+Install Pyinotify
+
+Make sure easy_install is installed:
+ sudo apt-get install python-setuptools
+Install pyinotify:
+ sudo easy_install pyinotify
+Check pyinotify is working alright
+ python -m pyinotify -v /tmp  # This will run pyinotify and watch /tmp
